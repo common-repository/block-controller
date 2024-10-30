@@ -1,0 +1,25 @@
+/**
+ * Components: Details navigation
+ */
+
+.block-controller-details-nav {
+
+  p {
+    display: inline-block;
+    font-weight: bold;
+  }
+
+  ul {
+    display: inline-block;
+  }
+
+  li {
+    border-inline-start: 1px solid var(--bc-black);
+    display: inline;
+    padding-inline: 0.5rem;
+
+    &:first-child {
+      border-inline-start: 0;
+    }
+  }
+}
